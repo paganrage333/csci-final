@@ -150,7 +150,14 @@ nav>a>h3 {
 
 footer {
     padding: 20px;
+    /* padding-left: 1100px; */
     display: grid;
     justify-content: center;
+    background-image: url(assets/IMG_0316.jpeg);
+    background-size: 100vw;
+    color: rgb(0, 41, 175);
+    font-family: josefin sans;
+    font-size: 20px;
+    opacity: .8;
 }
 
