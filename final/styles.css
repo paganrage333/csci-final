@@ -12,10 +12,10 @@ body {
     background-size: 100vw;
 }
 
-header, main, footer {
+/* header, main, footer {
     padding-left: 5vw;
     padding-right: 5vw;
-}
+} */
 
 h1 {
     font-family: Cabin Sketch;
@@ -90,6 +90,8 @@ nav>a>h3 {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .card {

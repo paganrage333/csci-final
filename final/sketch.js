@@ -3,11 +3,11 @@ const canvasHeight = window.innerHeight;
 
 // feel free to change these values as you like!
 const c1 = {
-    x: 100,
+    x: 600,
     y: 400,
-    width: 200,
+    diam: 200,
     speed: 5,
-    color: 'green'
+    color: 'yellow'
 };
 
 // required to set up the canvas:
@@ -29,7 +29,7 @@ function draw() {
     }
 
     // redraw the car:
-    drawCar(c1.x, c1.y, c1.width, c1.color);
+    happyFace(c1.x, c1.y, c1.width, c1.color);
 
     c2.x1 -= c2.speed;
 
@@ -38,7 +38,7 @@ function draw() {
     }
 
     // redraw the car:
-    drawCar(c2.x1, c2.y1, c2.width, c2.color);
+    happyFace(c2.x1, c2.y1, c2.width, c2.color);
     
     // draw the grid (optional -- feel free to remove this line):
     // drawGrid(canvasWidth, canvasHeight);
@@ -49,15 +49,44 @@ function draw() {
 function drawCar(x, y, size, fillColor, wheelColor='black') {
     strokeWeight(0);
     
-    // body
-    fill(fillColor);
-    rect(x - size/4, y - (size/5 + size/7), size / 2, size/7); // top
-    rect(x - size/2, y - size/5, size, size/5); // bottom
+    fill(255, 255, 0);
+    stroke(0);
+    strokeWeight(2);
+    ellipse(x, y, diam, diam);
+    
+    // Smile
+    var startAng = .1*PI
+    var endAng = .9*PI
+    var smileDiam = .6*diam;
+    arc(x, y, smileDiam, smileDiam, startAng, endAng);
+    
+    // Eyes
+    var offset = .2*diam;
+    var eyeDiam = .1*diam;
+    fill(0);
+    ellipse(x-offset, y-offset, eyeDiam, eyeDiam);
+    ellipse(x+offset, y-offset, eyeDiam, eyeDiam);
+}
 
-    // wheels:
-    fill(wheelColor);
-    circle(x - size / 4, y, size / 6);
-    circle(x + size / 4, y, size / 6);
+function happyFace (x, y, diam) {
+    // Face
+    fill(255, 255, 0);
+    stroke(0);
+    strokeWeight(2);
+    ellipse(x, y, diam, diam);
+    
+    // Smile
+    var startAng = .1*PI
+    var endAng = .9*PI
+    var smileDiam = .6*diam;
+    arc(x, y, smileDiam, smileDiam, startAng, endAng);
+    
+    // Eyes
+    var offset = .2*diam;
+    var eyeDiam = .1*diam;
+    fill(0);
+    ellipse(x-offset, y-offset, eyeDiam, eyeDiam);
+    ellipse(x+offset, y-offset, eyeDiam, eyeDiam);
 }
 
 
@@ -69,16 +98,24 @@ const c2 = {
     color: 'hotpink'
 };
 
-function drawCar(x1, y1, size, fillColor, wheelColor='black') {
-    strokeWeight(0);
-    
-    // body
-    fill(fillColor);
-    rect(x1 - size/4, y1 - (size/5 + size/7), size / 2, size/7); // top
-    rect(x1 - size/2, y1 - size/5, size, size/5); // bottom
 
-    // wheels:
-    fill(wheelColor);
-    circle(x1 - size / 4, y1, size / 6);
-    circle(x1 + size / 4, y1, size / 6);
-}
+
+// function drawCar(x1, y1, size, fillColor, wheelColor='black') {
+//     fill(255, 255, 0);
+//     stroke(0);
+//     strokeWeight(2);
+//     ellipse(x, y, diam, diam);
+    
+//     // Smile
+//     var startAng = .1*PI
+//     var endAng = .9*PI
+//     var smileDiam = .6*diam;
+//     arc(x, y, smileDiam, smileDiam, startAng, endAng);
+    
+//     // Eyes
+//     var offset = .2*diam;
+//     var eyeDiam = .1*diam;
+//     fill(0);
+//     ellipse(x-offset, y-offset, eyeDiam, eyeDiam);
+//     ellipse(x+offset, y-offset, eyeDiam, eyeDiam);
+// }
