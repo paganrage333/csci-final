@@ -8,6 +8,8 @@ body * {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assets/IMG_4769.jpeg);
+    background-size: 100vw;
 }
 
 header, main, footer {
@@ -114,13 +116,15 @@ nav>a>h3 {
     display: grid;
     justify-content: space-evenly;
     font-family: josefin sans;
+    /* margin: 30px; */
 }
 
 #dark {
     color: rgb(0, 0, 0);
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 15px;
-    background-color: rgb(118, 118, 118);
+    background-color: rgb(149, 149, 149);
+    /* border-radius: 50%; */
 }
 
 #dark:hover {
@@ -131,13 +135,13 @@ nav>a>h3 {
 
 #light {
     color: rgb(255, 255, 255);
-    border: solid black 1px;
+    /* border: solid rgb(144, 144, 144) 1px; */
     padding: 15px;
-    background-color: rgb(125, 125, 125);
+    background-color: rgb(87, 87, 87);
 }
 
 #light:hover {
-    background-color: goldenrod;
+    background-color: rgb(255, 255, 255);
     color: black;
     transition: ease-in-out .25s;
 }
