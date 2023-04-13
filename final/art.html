@@ -18,14 +18,18 @@
             </nav>
         </header>
         <h2>Works</h2>
+
+        <section class="buttons">
+            <button class="back" aria-label="Show previous slide" onclick="back(idx-1)">
+                <img src="carousel/arts/left.png" alt="" />
+            </button>
+            <button class="forward" aria-label="Show next slide" onclick="forward(idx+1)">
+                <img src="carousel/arts/right.png" alt="" />
+            </button>
+        </section>
         
     <section class="carousel" aria-label="Photo Carousel">
-        <button class="back" aria-label="Show previous slide" onclick="back(idx-1)">
-            <img src="carousel/arts/left.png" alt="" />
-        </button>
-        <button class="forward" aria-label="Show next slide" onclick="forward(idx+1)">
-            <img src="carousel/arts/right.png" alt="" />
-        </button>
+        
         <div class="current-photo">
             <!-- Replace image here -->
             <img id="current" src="carousel/arts/p1crop.jpg" alt="current photo" />
