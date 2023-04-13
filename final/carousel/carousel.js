@@ -20,7 +20,7 @@ let idx = 0;
 function showImage() {
     console.log('Show image');
     cur.src = photos[idx];
-    cap.innerHTML = `Image ${idx+1} of ${photos.length}`
+    cap.innerHTML = `${idx+1} of ${photos.length}`
 }
 
 

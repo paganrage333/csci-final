@@ -22,6 +22,7 @@ h2 {
 
 .current-photo img {
     width: 100%;
+    /* width: 50vw; */
     /* animation: fadein 1s; */
 }
 
@@ -58,7 +59,7 @@ button {
 }
 
 
-@keyframes fadein {
+/* @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+} */
