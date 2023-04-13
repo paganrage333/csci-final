@@ -90,8 +90,8 @@ nav>a>h3 {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 60px;
-    row-gap: 60px;
+    column-gap: 100px;
+    row-gap: 100px;
     padding-left: 15vw;
     padding-right: 15vw;
 }
@@ -109,11 +109,11 @@ nav>a>h3 {
 }
 
 .card>img {
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .card3, .card4 {
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .card1>h2, .card2>h2 {
