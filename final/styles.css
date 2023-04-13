@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&family=Cabin+Sketch&display=swap');
 
 body * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body * {
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: raleway    ;
     background-image: url(assets/IMG_4769.jpeg);
     background-size: 100vw;
 }
@@ -31,7 +31,8 @@ h1:hover {
 .title>h2 {
     font-family: josefin sans;
     font-size: 40px;
-    margin-left: 500px;
+    margin-left: 570px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 h2 {
@@ -88,27 +89,37 @@ nav>a>h3 {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    column-gap: 60px;
+    row-gap: 60px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .card {
     padding: 25px;
     /* border: black 1px solid; */
-    background-color: #c5d2df;
+    background-color: rgba(255, 255, 255, 0.6);
     display: grid;
     grid-template-columns: 2fr 1fr;
     flex-wrap: wrap;
+    font-weight: 1000;
+}
+
+.card1>p, .card2>p, .card3>p, .card4>p {
+    line-height: 30pt;
 }
 
 .card>img {
     width: 200px;
+    opacity: 1;
+}
+
+.card>a>img {
+    width: 200px;
 }
 
 .card:hover {
-    background-color: #708ba9;
+    background-color: hsla(213, 25%, 55%, 0.737);
     color: white;
     transition: ease-in-out .5s;
 }
