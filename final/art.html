@@ -3,7 +3,9 @@
     <head>
         <title>Pagan Rage: Artist</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="carousel/carstyle.css">
         <script src="main.js"></script>
+        <script src="carousel/carousel.js" defer></script>
     </head>
     <body>
         <header>
@@ -15,5 +17,20 @@
                 <a href="dancing.html">Dancing</a>
             </nav>
         </header>
+        <h2>Works</h2>
+    <section class="carousel" aria-label="Photo Carousel">
+        <div class="current-photo">
+            <!-- Replace image here -->
+            <img id="current" src="carousel/arts/p1crop.jpg" alt="current photo" />
+        </div> 
+        <button class="back" aria-label="Show previous slide" onclick="back(idx-1)">
+            <img src="carousel/arts/left.png" alt="" />
+        </button>
+        <button class="forward" aria-label="Show next slide" onclick="forward(idx+1)">
+            <img src="carousel/arts/right.png" alt="" />
+        </button>
+        <p class="caption">Image 1 of 7</p>
+    </section>
+    
     </body>
 </html>
