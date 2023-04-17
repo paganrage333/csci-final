@@ -255,11 +255,18 @@ footer {
     color: rgba(255, 245, 245);
 }
 
+.cotitle>h2 {
+    font-family: josefin sans;
+    font-size: 45px;
+    margin-left: 470px;
+    color: rgba(255, 245, 245, .8);
+}
+
 .ctitle>p {
     font-family: josefin sans;
     font-size: 15px;
     margin-left: 170px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .ctitle>p>a:visited {
@@ -267,7 +274,7 @@ footer {
 }
 
 .ctitle>p>a {
-    color: rgba(255, 245, 245, 0.7);
+    color: rgba(255, 245, 245);
 }
 
 .ctitle>p>a:hover {
@@ -285,7 +292,7 @@ footer {
     font-family: josefin sans;
     font-size: 15px;
     margin-left: 470px;
-    color: rgba(255, 245, 245, 0.7);
+    color: rgba(255, 245, 245, .9);
 }
 
 .standup>p>a {
