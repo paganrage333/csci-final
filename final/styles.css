@@ -237,3 +237,65 @@ footer {
     color: rgb(255, 255, 255);
     transition: ease-in-out .5s;
 }
+
+.tiktoks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding: 17vh;
+}
+
+.ctitle>h2 {
+    font-family: josefin sans;
+    font-size: 25px;
+    margin-left: 170px;
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.ctitle>p {
+    font-family: josefin sans;
+    font-size: 15px;
+    margin-left: 170px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ctitle>p>a:visited {
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.ctitle>p>a {
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.ctitle>p>a:hover {
+    color: rgb(255, 94, 94);
+}
+
+.standup>h2 {
+    font-family: josefin sans;
+    font-size: 25px;
+    margin-left: 770px;
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.standup>p {
+    font-family: josefin sans;
+    font-size: 15px;
+    margin-left: 470px;
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.standup>p>a {
+    color: rgb(255, 255, 255);
+}
+
+.standup>p>a:visited {
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.standup>p>a:hover {
+    color: rgb(255, 94, 94);
+}
