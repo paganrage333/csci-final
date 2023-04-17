@@ -252,7 +252,7 @@ footer {
     font-family: josefin sans;
     font-size: 25px;
     margin-left: 170px;
-    color: rgba(255, 245, 245, 0.7);
+    color: rgba(255, 245, 245);
 }
 
 .ctitle>p {
@@ -278,7 +278,7 @@ footer {
     font-family: josefin sans;
     font-size: 25px;
     margin-left: 770px;
-    color: rgba(255, 245, 245, 0.7);
+    color: rgba(255, 245, 245);
 }
 
 .standup>p {
