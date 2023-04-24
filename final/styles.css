@@ -252,13 +252,12 @@ footer {
     width: 40%;
 }
 
-.tiktok-embed
 
 .ctitle>h2 {
     font-family: josefin sans;
     font-size: 25px;
     margin-left: 170px;
-    color: rgba(255, 245, 245);
+    color: rgba(255, 245, 245, .9);
 }
 
 .cotitle>h2 {
