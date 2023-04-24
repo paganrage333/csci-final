@@ -243,10 +243,16 @@ footer {
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
     row-gap: 100px;
-    padding-left: 5vw;
+    padding-left: 20vw;
     padding-right: 10vw;
-    padding: 17vh;
+    /* padding: 17vh; */
 }
+
+.tiktok {
+    width: 40%;
+}
+
+.tiktok-embed
 
 .ctitle>h2 {
     font-family: josefin sans;
