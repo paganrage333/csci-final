@@ -208,7 +208,7 @@ footer {
 
 .muvid {
     /* padding-top: 5px; */
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     /* border: black 1px solid; */
@@ -290,6 +290,13 @@ footer {
 
 .ctitle, .standup {
     background-color: rgb(255, 94, 94, .5);
+    width: 80vw;
+    margin-left: 150px;
+}
+
+.ctitle:hover, .standup:hover {
+    background-color: rgb(102, 102, 102, .5);
+    transition: ease-in-out .5s;
 }
 
 
