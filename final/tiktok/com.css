@@ -117,13 +117,7 @@ nav>a>h3 {
     color: rgba(255, 245, 245, .9);
 }
 
-.ctitle>p>a {
-    color: rgba(255, 245, 245);
-}
 
-.ctitle>p>a:hover {
-    color: rgb(255, 94, 94);
-}
 
 .ctitle, .standup {
     background-color: rgb(255, 94, 94, .7);
@@ -142,6 +136,14 @@ nav>a>h3 {
     font-size: 15px;
     margin-left: 170px;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.ctitle>p>a {
+  color: rgba(255, 245, 245);
+}
+
+.ctitle>p>a:hover {
+  color: rgb(255, 94, 94);
 }
 
 .ctitle>p>a:visited {
