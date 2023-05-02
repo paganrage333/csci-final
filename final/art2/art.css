@@ -1,0 +1,37 @@
+#carousel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  #carousel-image {
+    max-width: 80%;
+    max-height: 80vh;
+  }
+  
+  #carousel-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-icon {
+    margin: 10px;
+    border: 2px solid #ddd;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    transition: border-color 0.2s;
+    width: 20%;
+  }
+  
+  .carousel-icon:hover,
+  .selected {
+    border-color: #555;
+  }
+
+  body {
+    background-color: black;
+  }
