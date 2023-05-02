@@ -138,16 +138,16 @@ nav>a>h3 {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.ctitle>p>a {
+.ctitle>p>a:visited {
+  color: rgba(255, 245, 245, 0.7);
+}
+
+.ctitle a {
   color: rgba(255, 245, 245);
 }
 
-.ctitle>p>a:hover {
+.ctitle p a:hover {
   color: rgb(255, 94, 94);
-}
-
-.ctitle>p>a:visited {
-    color: rgba(255, 245, 245, 0.7);
 }
 
 .standup>h2 {
