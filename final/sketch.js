@@ -1,6 +1,9 @@
 const canvasWidth = window.innerWidth;
 const canvasHeight = window.innerHeight; 
 
+
+
+
 // feel free to change these values as you like!
 const c1 = {
     x: 600,
@@ -118,6 +121,23 @@ function happyFace (x, y, diam) {
     ellipse(x-offset, y-offset, eyeDiam, eyeDiam);
     ellipse(x+offset, y-offset, eyeDiam, eyeDiam);
 }
+
+// const canvas = document.getElementById('myCanvas');
+
+// function openYoutube() {
+//     window.open('https://youtube.com', '_blank');
+//   }
+  
+//   canvas.addEventListener('click', function(event) {
+//     const x = event.clientX - canvas.getBoundingClientRect().left;
+//     const y = event.clientY - canvas.getBoundingClientRect().top;
+    
+//     if (x > c1.x && x < c1.x + c1.diam && y > c1.y && y < c1.y + c1.diam) {
+//       openYoutube();
+//     } else if (x > c2.x1 && x < c2.x1 + c2.width && y > c2.y1 && y < c2.y1 + c2.width) {
+//       openYoutube();
+//     }
+//   });
 
 
 // function drawCar(x1, y1, size, fillColor, wheelColor='black') {

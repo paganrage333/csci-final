@@ -345,3 +345,41 @@ footer {
 .standup>p>a:hover {
     color: rgb(255, 94, 94);
 }
+
+.mtitle>p {
+    font-family: josefin sans;
+    font-size: 20px;
+    margin-left: 170px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.mtitle>p>a:visited {
+    color: rgba(255, 245, 245, 0.7);
+}
+
+.mtitle>p>a {
+    color: rgba(255, 245, 245);
+}
+
+.mtitle>p>a:hover {
+    color: rgb(255, 94, 94);
+}
+
+.mtitle {
+    background-color: rgb(255, 94, 94, .5);
+    width: 80vw;
+    margin-left: 150px;
+    padding: 1px;
+}
+
+.mtitle:hover {
+    background-color: rgb(102, 102, 102, .5);
+    transition: ease-in-out .5s;
+}
+
+.mtitle>h2 {
+    font-family: josefin sans;
+    font-size: 25px;
+    margin-left: 170px;
+    color: rgba(255, 245, 245, .9);
+}
